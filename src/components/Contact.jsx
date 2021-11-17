@@ -13,9 +13,8 @@ const Contact = () => {
             className="contact-form row d-flex justify-content-center align-items-center"
             name="contact"
             method="post"
-            netlify
-            netlify-honeypot="bot-field"
-            hidden
+            data-netlify="true"
+            onSubmit="submit"
           >
             <input type="hidden" name="form-name" value="contact" />
             <div className="col-12">
@@ -27,6 +26,7 @@ const Contact = () => {
                   type="text"
                   className="name-input form-control form-control-lg"
                   placeholder="Enter your name..."
+                  id="name"
                   name="name"
                   required
                 />
@@ -42,6 +42,7 @@ const Contact = () => {
                   type="email"
                   className="email-input form-control form-control-lg input-lg"
                   placeholder="Enter your email..."
+                  id="email"
                   name="email"
                   required
                 />
@@ -55,7 +56,7 @@ const Contact = () => {
                 </label>
                 <textarea
                   className="form-control message-input form-control-lg input-lg"
-                  id="exampleFormControlTextarea1"
+                  id="message"
                   rows="3"
                   placeholder="Enter your message..."
                   name="message"
