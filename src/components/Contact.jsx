@@ -10,45 +10,47 @@ const Contact = () => {
             <h5 className="left-txt mb-5">Contact</h5>
           </div>
           <form
-            data-netlify="true"
             className="contact-form row d-flex justify-content-center align-items-center"
-            action="POST"
+            name="contact"
+            method="post"
+            netlify
+            netlify-honeypot="bot-field"
+            hidden
           >
+            <input type="hidden" name="form-name" value="contact" />
             <div className="col-12">
               <div className="name-input-div input-div">
-                <label htmlFor="name-input" className="name-label input-label">
+                <label htmlFor="name" className="name-label input-label">
                   <span className="label-line"></span> Name
                 </label>
                 <input
                   type="text"
                   className="name-input form-control form-control-lg"
                   placeholder="Enter your name..."
+                  name="name"
+                  required
                 />
               </div>
             </div>
 
             <div className="col-12 mt-5">
               <div className="email-input-div input-div">
-                <label
-                  htmlFor="email-input"
-                  className="email-label input-label"
-                >
+                <label htmlFor="email" className="email-label input-label">
                   <span className="label-line"></span> Email
                 </label>
                 <input
                   type="email"
                   className="email-input form-control form-control-lg input-lg"
                   placeholder="Enter your email..."
+                  name="email"
+                  required
                 />
               </div>
             </div>
 
             <div className="col-12 mt-5">
               <div className="message-input-div input-div">
-                <label
-                  htmlFor="message-input"
-                  className="message-label input-label"
-                >
+                <label htmlFor="message" className="message-label input-label">
                   <span className="label-line"></span> Message
                 </label>
                 <textarea
@@ -56,6 +58,7 @@ const Contact = () => {
                   id="exampleFormControlTextarea1"
                   rows="3"
                   placeholder="Enter your message..."
+                  name="message"
                 ></textarea>
               </div>
             </div>
