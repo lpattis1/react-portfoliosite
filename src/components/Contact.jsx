@@ -10,8 +10,9 @@ const Contact = () => {
             <h5 className="left-txt mb-5">Contact</h5>
           </div>
           <form
-            netlify
+            data-netlify="true"
             className="contact-form row d-flex justify-content-center align-items-center"
+            action="POST"
           >
             <div className="col-12">
               <div className="name-input-div input-div">
