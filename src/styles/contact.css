@@ -63,3 +63,17 @@
   color: #f2388f;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 770px) {
+  .input-div {
+    width: 25rem;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .input-div {
+    width: 18rem;
+    margin: auto;
+  }
+}
