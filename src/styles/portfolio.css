@@ -11,6 +11,7 @@
 
 .portfolio-container {
   padding-top: 2rem;
+  display: block;
 }
 
 .featured-text {
@@ -69,11 +70,6 @@
   /* visibility: hidden;
   opacity: 0; */
   transition: all 0.3s ease-in;
-}
-
-.portfolio-top--right {
-  position: absolute;
-  right: 1rem !important;
 }
 
 .project-information {

@@ -198,34 +198,21 @@ const Portfolio = () => {
   return (
     <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
       <section id="portfolio" className="page-section w-100">
-        <div
-          className="container portfolio-container d-flex
-            justify-content-between
-            align-items-start"
-        >
-          <div
-            className="
-            portfolio-top
-           
-            d-flex
-            justify-content-between
-            align-items-center
-            mb-4
-          "
-          >
-            <div className="portfolio-top--left d-flex justify-content-start align-items-center">
+        <div className="container portfolio-container">
+          <div className="portfolio-top d-flex align-items-center justify-content-between">
+            <div className="portfolio-top--left">
               <h5 className="right-txt">
                 <span className="line" />
                 Portfolio
               </h5>
             </div>
-            <div className="portfolio-top--right align-items-end justify-content-end">
+
+            <div className="portfolio-top--right">
               <ul
                 className="
                 filter-projects
                 d-flex
-                justify-content-end
-                align-items-end
+                
               "
               >
                 {liState.links.map((link, index) => {
@@ -250,7 +237,10 @@ const Portfolio = () => {
               </ul>
             </div>
           </div>
-          <div className="featured-text--top">
+        </div>
+
+        <div className="featured-text--top d-flex">
+          <div className="container d-flex justify-content-start align-items-start">
             <h2 className="featured-text">Featured Projects</h2>
           </div>
         </div>

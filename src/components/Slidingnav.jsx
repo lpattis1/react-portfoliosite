@@ -4,7 +4,9 @@ import Slidelinks from "./Slidelinks";
 const Slidingnav = (props) => {
   return (
     <>
-      <div className={props.slidingNavState}>{props.children}</div>
+      <div className={props.slidingNavState}>
+        <div className="container sliding-contain">{props.children}</div>
+      </div>
     </>
   );
 };

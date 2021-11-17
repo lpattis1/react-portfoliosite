@@ -35,17 +35,15 @@
   cursor: pointer;
 }
 
+.sliding-contain {
+  display: block;
+}
+
 .fa-times {
   font-size: 2rem;
   margin-left: 0.8rem;
   color: #f2388f;
   cursor: pointer;
-}
-
-.sliding-nav-left {
-  position: absolute;
-  top: 1.2rem;
-  right: 4.5rem;
 }
 
 .list-item {

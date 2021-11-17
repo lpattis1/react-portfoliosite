@@ -56,7 +56,7 @@ const Navbar = () => {
       </nav>
       <div className="sliding-nav-container">
         <Slidingnav slidingNavState={slidingNav}>
-          <div className="container sliding-container d-flex flex-row justify-content-between">
+          <div className="sliding-nav-position d-flex align-items-center justify-content-between">
             <div className="sliding-nav-right mt-5">
               <div className="sliding-nav-logo d-flex align-items-center">
                 <img
@@ -65,13 +65,6 @@ const Navbar = () => {
                   className="sliding-nav-img"
                 />
                 <h3 className="sliding-nav-txt">LP</h3>
-              </div>
-              <div className="sliding-list mt-5">
-                <Slidelinks click={closeSlidingNav} linkName="home" />
-                <Slidelinks click={closeSlidingNav} linkName="skills" />
-                <Slidelinks click={closeSlidingNav} linkName="resume" />
-                <Slidelinks click={closeSlidingNav} linkName="portfolio" />
-                <Slidelinks click={closeSlidingNav} linkName="contact" />
               </div>
             </div>
 
@@ -84,6 +77,14 @@ const Navbar = () => {
                 <i className="fas fa-times"></i>
               </div>
             </div>
+          </div>
+
+          <div className="sliding-list mt-5">
+            <Slidelinks click={closeSlidingNav} linkName="home" />
+            <Slidelinks click={closeSlidingNav} linkName="skills" />
+            <Slidelinks click={closeSlidingNav} linkName="resume" />
+            <Slidelinks click={closeSlidingNav} linkName="portfolio" />
+            <Slidelinks click={closeSlidingNav} linkName="contact" />
           </div>
         </Slidingnav>
       </div>
