@@ -1,7 +1,31 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+  const [success, setSuccess] = useState(false);
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_gb5nof4",
+        "template_ssv4tne",
+        e.target,
+        "user_guNgAcFbWzg0F47HMj4Fo"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSuccess(true);
+        },
+        (error) => {
+          console.log(error.text);
+          setSuccess(false);
+        }
+      );
+  };
   return (
     <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
       <section id="contact">
@@ -12,11 +36,9 @@ const Contact = () => {
           <form
             className="contact-form row d-flex justify-content-center align-items-center"
             name="contact"
-            method="post"
-            data-netlify="true"
-            onSubmit="submit"
+            ref={form}
+            onSubmit={sendEmail}
           >
-            <input type="hidden" name="form-name" value="contact" />
             <div className="col-12">
               <div className="name-input-div input-div">
                 <label htmlFor="name" className="name-label input-label">
@@ -69,6 +91,16 @@ const Contact = () => {
                 <button type="submit" className="input-submit-btn w-100">
                   Submit
                 </button>
+              </div>
+            </div>
+
+            <div className="col-12 mt-5">
+              <div className="success-message text-center">
+                {success ? (
+                  <p className="success-message-text">
+                    Email successfully sent!
+                  </p>
+                ) : null}
               </div>
             </div>
           </form>

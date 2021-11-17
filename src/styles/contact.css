@@ -64,6 +64,11 @@
   font-weight: 600;
 }
 
+.success-message-text {
+  color: #f2388f;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 770px) {
   .input-div {
     width: 25rem;
