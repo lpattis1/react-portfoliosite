@@ -1,0 +1,87 @@
+.sliding-nav {
+  background: #f27d52;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translate3d(100%, 0, 0);
+  transition: 0.5s all ease-in;
+  font-family: "Open Sans", sans-serif !important;
+  overflow-y: auto;
+  z-index: 3000;
+}
+
+.sliding-nav--hide {
+  transform: translate3d(100%, 0, 0);
+}
+
+.sliding-nav-img {
+  height: 2.5rem;
+  margin-right: 0.8rem;
+}
+
+.sliding-nav-txt {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.close-txt {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.fa-times {
+  font-size: 2rem;
+  margin-left: 0.8rem;
+  color: #f2388f;
+  cursor: pointer;
+}
+
+.sliding-nav-left {
+  position: absolute;
+  top: 1.2rem;
+  right: 4.5rem;
+}
+
+.list-item {
+  margin-bottom: 1.3rem;
+}
+
+.hover-state {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-state--show {
+  opacity: 1 !important;
+  transition: 0.4s ease-in-out !important;
+}
+
+.list-link {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.list-link:hover {
+  color: #f2388f;
+}
+
+.fa-long-arrow-alt-right {
+  font-size: 2.2rem;
+  color: #f2388f;
+  margin-right: 1rem;
+}
+
+.sliding-nav--show {
+  transform: translate3d(0%, 0, 0);
+}

@@ -1,0 +1,55 @@
+.loading-page {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f27d52;
+  z-index: 4000;
+  overflow-y: hidden;
+  visibility: hidden;
+  transition: visibility 0.2s ease-in;
+}
+
+.loading-page-hidden {
+  display: none !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.loading-gif {
+  height: 27rem;
+  object-fit: cover;
+}
+
+.loading-text {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.loading-bar {
+  height: 3rem;
+  border: 0.2rem solid white;
+  margin-top: 2rem;
+}
+
+.load {
+  background: #f25c78;
+  height: 100%;
+
+  transition: 0.3s ease-in-out;
+}
+
+/* Dynamic */
+
+.loading-page--visible {
+  visibility: visible !important;
+}

@@ -1,0 +1,227 @@
+#portfolio {
+  margin-top: 2rem;
+  width: 100vw;
+  background: linear-gradient(
+    to right bottom,
+    rgba(242, 125, 82, 0.699),
+    rgba(242, 106, 94, 0.801)
+  );
+  padding-bottom: 3rem;
+}
+
+.portfolio-container {
+  padding-top: 2rem;
+}
+
+.featured-text {
+  font-size: 2.5rem;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.portfolio-top {
+  margin-bottom: 0.3rem;
+}
+
+.portfolio-top--left .right-txt {
+  color: black;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.portfolio-top--left .line {
+  padding: 0rem 0.2rem;
+  background: #f2388f;
+  margin-right: 0.3rem;
+}
+
+.portfolio-top--right ul {
+  margin-top: 2.3rem;
+}
+
+.portfolio-top--right ul li {
+  color: black;
+  list-style: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.portfolio-projects {
+  z-index: 300;
+  margin-top: 2.5rem;
+}
+
+.portfolio-projects .featured {
+  border-radius: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.project-bg {
+  /* visibility: hidden;
+  opacity: 0; */
+  transition: all 0.3s ease-in;
+}
+
+.portfolio-top--right {
+  position: absolute;
+  right: 1rem !important;
+}
+
+.project-information {
+  background: white;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.project-description {
+  font-weight: 300;
+  margin-top: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.project-icons .live-demo {
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  margin-right: 1.4rem;
+  border-radius: 0.5rem;
+  background: #f25c78;
+  font-weight: 600;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.live-demo:hover {
+  transition: 0.2s ease-in-out;
+  background: #e45670;
+  color: white !important;
+}
+
+.project-link {
+  text-decoration: none;
+  color: white;
+}
+
+.github-code {
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  margin-right: 1.4rem;
+  border-radius: 0.5rem;
+  background: #f2388f;
+  font-weight: 600;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.github-code:hover {
+  transition: 0.2s ease-in-out;
+  background: #dd3483;
+  color: white !important;
+}
+
+.project-link:hover {
+  color: white;
+}
+
+.featured {
+  height: 30rem !important;
+  transition: 0.4s linear;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.featured-one {
+  background-image: url(/src/assets/project1preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.featured-two {
+  background-image: url(/src/assets/featured-one.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.featured-three {
+  background-image: url("https://i.imgur.com/TYi6shn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.featured-four {
+  background-image: url("https://i.imgur.com/oZXbVuK.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.featured-five {
+  background-image: url("https://i.imgur.com/OSJ9n17.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.featured-six {
+  background-image: url("https://i.imgur.com/dqAq0Di.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.project-bg {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+
+.active-project {
+  color: white !important;
+
+  text-decoration: underline;
+  text-decoration-color: #f2388f;
+  text-decoration-thickness: 0.2em !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-darken {
+  background: rgba(0, 0, 0, 0.363);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: 0.3s ease-in;
+  visibility: visible;
+  opacity: 1;
+}

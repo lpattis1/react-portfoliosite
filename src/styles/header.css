@@ -1,0 +1,32 @@
+.home-text--heading {
+  text-transform: uppercase !important;
+  font-weight: 700;
+  font-size: 3.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: rgb(242, 92, 120);
+  background: linear-gradient(
+    276deg,
+    rgba(242, 92, 120, 1) 4%,
+    rgba(242, 125, 82, 1) 62%,
+    rgba(242, 107, 94, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.6rem;
+  width: 100% !important;
+}
+
+.home-text--subheading {
+  font-weight: 400 !important;
+  margin-top: 1.8rem;
+  font-size: 2rem;
+}
+
+.home-text--info {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  line-height: 1.7;
+}

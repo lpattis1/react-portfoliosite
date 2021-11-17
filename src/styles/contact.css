@@ -1,0 +1,65 @@
+#contact {
+  margin-top: 2rem;
+
+  background: linear-gradient(
+    to right bottom,
+    rgba(242, 125, 82, 0.699),
+    rgba(242, 106, 94, 0.801)
+  );
+  padding-bottom: 3rem;
+}
+
+.contact-container {
+  padding-top: 3rem;
+}
+
+.left-txt {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.input-label {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.label-line {
+  padding: 0rem 0.2rem;
+  background: #f2388f;
+  margin-right: 0.3rem;
+}
+
+.input-div {
+  width: 40rem;
+  margin: auto;
+}
+
+.input-submit-btn {
+  border: none;
+  background: #f2388f;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.input-submit-btn:hover {
+  transition: 0.3s ease-in-out;
+  background: #db3181;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+}
+
+.credits-name {
+  color: #f2388f;
+  font-weight: 600;
+}

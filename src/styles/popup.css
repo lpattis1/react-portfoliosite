@@ -1,0 +1,123 @@
+.socials-modal {
+  background: rgba(0, 0, 0, 0.527);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 7000 !important;
+  transition: 0.3s ease-in-out;
+  overflow-y: auto !important;
+}
+
+.socials-modal--hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.socials-modal-close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  padding: 1rem;
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+  z-index: 8000;
+}
+
+.modal-popup {
+  background-color: white;
+  max-width: 100rem;
+  margin: auto;
+  width: 90%;
+  font-family: "Open Sans", sans-serif !important;
+  position: relative;
+  top: 15%;
+  left: 0;
+  overflow-y: auto !important;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.socials-text {
+  height: 100%;
+  padding: 2rem;
+}
+
+.socials-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.l-img {
+  height: 2.5rem !important;
+}
+
+.l-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 0.8rem;
+}
+
+.socials-info h2 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.my-info {
+  margin-bottom: 1rem;
+}
+
+.social-link {
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+  color: #f26b5e;
+}
+
+.social-link:hover {
+  transform: scale(1.5) !important;
+  transition: 0.2s ease-in;
+  color: #f2388f;
+}
+
+.social-exit {
+  margin-top: 1rem;
+}
+
+.no-thanks {
+  color: black;
+  font-size: 1rem;
+  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+  text-decoration-color: #f26b5e !important;
+  text-decoration-thickness: 0.2em;
+}
+
+.no-thanks:hover {
+  transition: 0.2s ease-in;
+  text-decoration-color: #f2388f !important;
+  color: black;
+}
+
+.socials-img {
+  background: #f26b5e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.s-img {
+  width: 30rem;
+  object-fit: cover;
+}
+
+.socials-modal--visible {
+  visibility: visible;
+  opacity: 1;
+}
