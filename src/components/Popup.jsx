@@ -37,8 +37,8 @@ const Popup = (props) => {
               <h2>Follow me on social media!</h2>
               <p className="my-info">
                 Want to see what I'm up to? Follow me on my social media pages.
-                I am currently on Linkedin, Behance, Github, and Instagram. Feel
-                free to reach out to me anytime or add me 😎
+                I am currently on Linkedin, Behance, and Github. Feel free to
+                reach out to me anytime or add me 😎
               </p>
               <div className="links">
                 <a
