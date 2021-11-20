@@ -31,9 +31,9 @@ const Portfoliolinks = (props) => {
     setLiState({ ...liState, activeLink: liState.links[index] });
   };
 
-  const sortProjects = (e) => {
-    console.log(e.target);
-  };
+  // const sortProjects = (e) => {
+  //   console.log(e.target);
+  // };
 
   return (
     <>
@@ -44,11 +44,9 @@ const Portfoliolinks = (props) => {
             data-category={link.categoryClass}
             onClick={(e) => {
               toggleActive(index);
-              sortProjects(e);
+              // sortProjects(e);
             }}
-            className={
-              liState.activeLink === link ? "project active-project" : ""
-            }
+            className={liState.activeLink === link ? "active-project" : ""}
           >
             {link.category}
           </li>

@@ -207,6 +207,10 @@
   transition: all 0.3s ease-in;
 }
 
+.default-project {
+  color: red;
+}
+
 .active-project {
   color: white !important;
 

@@ -82,7 +82,11 @@ const Navbar = () => {
           <div className="sliding-list mt-5">
             <Slidelinks click={closeSlidingNav} linkName="home" />
             <Slidelinks click={closeSlidingNav} linkName="skills" />
-            <Slidelinks click={closeSlidingNav} linkName="resume" />
+            <Slidelinks
+              click={closeSlidingNav}
+              linkName="resume"
+              open="_blank"
+            />
             <Slidelinks click={closeSlidingNav} linkName="portfolio" />
             <Slidelinks click={closeSlidingNav} linkName="contact" />
           </div>

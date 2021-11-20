@@ -21,7 +21,12 @@ const Slidelinks = (props) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onClick={props.click}
-        href={`#${props.linkName}`}
+        target={props.open}
+        href={
+          props.linkName === "resume"
+            ? "https://docdro.id/RBBJFzp"
+            : `#${props.linkName}`
+        }
         className="list-link display-3"
       >
         {props.linkName}
