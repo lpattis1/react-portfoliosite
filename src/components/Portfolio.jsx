@@ -23,7 +23,7 @@ const Portfolio = () => {
     {
       allProjects: [
         {
-          projectId: "javascript",
+          projectId: "javascript html-css",
           projectClasses: "featured featured-one all javascript",
           projectNumber: "Project One",
           projectDescription:
@@ -149,7 +149,7 @@ const Portfolio = () => {
     .filter((project) => project.projectId.includes("html-css"))
     .map((project) => {
       return (
-        <div className="col col-12">
+        <div className="col col-xl-6 col-12">
           <FadeIn>
             <Projects
               projectId={project.projectId}

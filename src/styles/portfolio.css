@@ -141,54 +141,61 @@
 }
 
 .featured-one {
-  background-image: url(/src/assets/project1preview.png);
+  background: #f2388f;
+  background-image: url("https://i.imgur.com/JJXJ7n7.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
 
 .featured-two {
-  background-image: url("https://i.imgur.com/HgIO0Ew.jpg");
+  background: #f25c78;
+  background-image: url("https://i.imgur.com/5sHmvKT.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
 
 .featured-three {
-  background-image: url("https://i.imgur.com/TYi6shn.jpg");
+  background: #f26b5e;
+  background-image: url("https://i.imgur.com/Jag1QSK.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
 
 .featured-four {
-  background-image: url("https://i.imgur.com/oZXbVuK.jpg");
+  background: #f26b5e;
+  background-image: url("https://i.imgur.com/J9K2unq.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
 
 .featured-five {
-  background-image: url("https://i.imgur.com/OSJ9n17.jpg");
+  background: #f2388f;
+  background-image: url("https://i.imgur.com/qKsbpni.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
 
 .featured-six {
-  background-image: url("https://i.imgur.com/dqAq0Di.jpg");
+  background: #f25c78;
+  background-image: url("https://i.imgur.com/4biUDiN.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
