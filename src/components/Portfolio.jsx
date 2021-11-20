@@ -37,7 +37,7 @@ const Portfolio = () => {
           projectClasses: "featured featured-two all html-css",
           projectNumber: "Project Two",
           projectDescription:
-            "A group project made for Innovate Birmingham. In production.",
+            "A fullstack blog app. The tools I used for this project included: React, SASS, MySQL, Node, and Typescript.",
         },
 
         {

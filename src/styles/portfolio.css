@@ -150,7 +150,7 @@
 }
 
 .featured-two {
-  background-image: url(/src/assets/featured-one.png);
+  background-image: url("https://i.imgur.com/HgIO0Ew.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
