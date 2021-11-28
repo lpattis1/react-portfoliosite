@@ -75,7 +75,7 @@ const Portfolio = () => {
           projectClasses: "featured featured-six all react",
           projectNumber: "Project Six",
           projectDescription:
-            "An e-commerce React site currently in production.",
+            "An e-commerce React site currently in production. The tools I am using for this project include: React, Bootstrap, Material UI, and more.",
         },
       ],
     },
