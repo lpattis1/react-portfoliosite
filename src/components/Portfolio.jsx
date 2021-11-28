@@ -38,6 +38,8 @@ const Portfolio = () => {
           projectNumber: "Project Two",
           projectDescription:
             "A fullstack blog app. The tools I used for this project included: React, SASS, MySQL, Node, and Typescript.",
+          projectLiveLink: "https://hidden-forest-27744.herokuapp.com/",
+          projectGithub: "https://github.com/lpattis1/productionblog",
         },
 
         {
