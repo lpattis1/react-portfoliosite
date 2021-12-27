@@ -68,6 +68,8 @@ const Portfolio = () => {
           projectNumber: "Project Five",
           projectDescription:
             "Personal portfolio site. The tools I used for this project included: React, Boostrap, Scroll Animation, and CSS.",
+          projectLiveLink: "https://laurenpattison.com/",
+          projectGithub: "https://github.com/lpattis1/react-portfoliosite",
         },
 
         {
@@ -75,7 +77,9 @@ const Portfolio = () => {
           projectClasses: "featured featured-six all react",
           projectNumber: "Project Six",
           projectDescription:
-            "An e-commerce React site currently in production. The tools I am using for this project include: React, Bootstrap, Material UI, and more.",
+            "A collaborative project that allows users to login/register to find and favorite pets. The tools I am using for this project include: React, Bootstrap, Material UI, and more.",
+          projectLiveLink: "https://www.youtube.com/watch?v=YMo2B2enAIg",
+          projectGithub: "https://github.com/Kaley925/FETCH",
         },
       ],
     },
