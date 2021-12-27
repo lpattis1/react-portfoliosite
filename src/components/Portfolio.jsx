@@ -77,7 +77,7 @@ const Portfolio = () => {
           projectClasses: "featured featured-six all react",
           projectNumber: "Project Six",
           projectDescription:
-            "A collaborative project that allows users to login/register to find and favorite pets. The tools I am using for this project include: React, Bootstrap, Material UI, and more.",
+            "A collaborative full-stack project that allows users to login/register to find and favorite pets. As the frontend dev the tools I am using for this project include: React, Bootstrap, Material UI, and more.",
           projectLiveLink: "https://www.youtube.com/watch?v=YMo2B2enAIg",
           projectGithub: "https://github.com/Kaley925/FETCH",
         },
